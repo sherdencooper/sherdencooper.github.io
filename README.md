@@ -126,7 +126,7 @@ Score Based Methods (NeurIPS: <a href="https://score-based-methods-workshop.gith
 
 [![Google PageSpeeg](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=desktop)
 
-
+ 
 ## Table Of Contents
 
   * [User community](#user-community)
