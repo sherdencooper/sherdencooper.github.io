@@ -1,83 +1,46 @@
 ---
 ---
+@INPROCEEDINGS{yang2021matrix,
+bibtex_show={true},
+abbr={TMC},
+author = {Jungang Yang and Liyao Xiang and Jiahao Yu and Xinbing Wang and Bin Guo and Zhetao Li and Baochun Li},
+booktitle = {IEEE Transactions on Mobile Computing},
+title = {Matrix Gaussian Mechanisms for Differentially-Private Learning},
+year = {2021},
+pdf = {https://ieeexplore.ieee.org/document/9475590},
+abstract={The wide deployment of machine learning algorithms has become a severe threat to user data privacy. As the learning data is of high dimensionality and high orders, preserving its privacy is intrinsically hard. Conventional differential privacy mechanisms often incur significant utility decline as they are designed for scalar values from the start. We recognize that it is because conventional approaches do not take the data structural information into account, and fail to provide sufficient privacy or utility. As the main novelty of this work, we propose Matrix Gaussian Mechanism (MGM), a new (, δ)-differential privacy mechanism for preserving learning data privacy. By imposing the unimodal distributions on the noise, we introduce two mechanisms based on MGM with an improved utility. We further show that with the utility space available, the proposed mechanisms can be instantiated with optimized utility, and has a closed-form solution scalable to large-scale problems. We experimentally show that our mechanisms, applied to privacy-preserving federated learning, are superior than the state-of-the-art differential privacy mechanisms in utility.}
+}
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@inproceedings{zhang2020voiceprint,
+  abbr={INFOCOM},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+  title={Voiceprint mimicry attack towards speaker verification system in smart home},
+  author={Zhang, Lei and Meng, Yan and Yu, Jiahao and Xiang, Chong and Falk, Brandon and Zhu, Haojin},
+  booktitle={IEEE INFOCOM 2020-IEEE Conference on Computer Communications},
+  pages={377--386},
+  year={2020},
+  organization={IEEE},
+  abstract={The advancement of voice controllable systems (VC-Ses) has dramatically affected our daily lifestyle and catalyzed the smart home's deployment. Currently, most VCSes exploit automatic speaker verification (ASV) to prevent various voice attacks (e.g., replay attack). In this study, we present VMask, a novel and practical voiceprint mimicry attack that could fool ASV in smart home and inject the malicious voice command disguised as a legitimate user. The key observation behind VMask is that the deep learning models utilized by ASV are vulnerable to the subtle perturbations in the voice input space. To generate these subtle perturbations, VMask leverages the idea of adversarial examples. Then by adding the subtle perturbations to the recordings from an arbitrary speaker, VMask can mislead the ASV into classifying the crafted speech samples, which mirror the former speaker for human, as the targeted victim. Moreover, psychoacoustic masking is employed to manipulate the adversarial perturbations under human perception threshold, thus making victim unaware of ongoing attacks. We validate the effectiveness of VMask by performing comprehensive experiments on both grey box (VGGVox) and black box (Microsoft Azure Speaker Verification) ASVs. Additionally, a real-world case study on Apple HomeKit proves the VMask's practicability on smart home platforms.},
+  pdf = {https://ieeexplore.ieee.org/document/9155483}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{li2019invisible,
+  abbr={arXiv},
+  title={Invisible backdoor attacks against deep neural networks},
+  author={Li, Shaofeng and Zhao, Benjamin Zi Hao and Yu, Jiahao and Xue, Minhui and Kaafar, Dali and Zhu, Haojin},
+  journal={arXiv preprint arXiv:1909.02742v1},
+  year={2019},
+  pdf = {https://arxiv.org/pdf/1909.02742v1.pdf}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  selected={true}
-}
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@INPROCEEDINGS{airs2023,
+  abbr={USENIX},
+  title={AIRS Explanation for Deep Reinforcement Learning based Security Applications},
+  author={Jiahao Yu and  Wenbo Guo and  Qi Qin and Gang Wang and Ting Wang and Xinyu Xing},
+  booktitle = {Proceedings of the 2023 USENIX Security},
+  abstract = {Recently, we have witnessed the success of deep reinforcement learning (DRL) in many security applications, ranging from malware mutation to selfish blockchain mining. Like all other machine learning methods, the lack of explainability has been limiting its broad adoption as users have difficulty establishing trust in DRL models’ decisions. Over the past years, different methods have been proposed to explain DRL models but unfortunately, they are often not suitable for security applications, in which explanation fidelity, efficiency, and the capability of model debugging are largely lacking. In this work, we propose AIRS, a general framework to explain deep reinforcement learning-based security applications. Unlike previous works that pinpoint important features to the agent’s current action, our explanation is at the step level. It models the relationship between the final reward and the key steps that a DRL agent takes, and thus outputs the steps that are most critical towards the final reward the agent has gathered. Using four representative security-critical applications, we evaluate AIRS from the perspectives of explainability, fidelity, stability, and efficiency. We show that AIRS could outperform alternative explainable DRL methods. We also showcase AIRS’s utility, demonstrating that our explanation could facilitate the DRL model’s failure offset, help users establish trust in a model decision, and even assist the identification of inappropriate reward designs.},
+  year = {2023},
+  pdf = {airs.pdf},
+  selected = {true}
 }

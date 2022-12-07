@@ -21,7 +21,7 @@ If you like the theme, give it a star!
 
 [![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
 
-
+  
 ## User community
 
 The vibrant community of **al-folio** users is growing!
@@ -183,7 +183,7 @@ Finally, run the following command that will pull a pre-built image from DockerH
 ```bash
 $ docker-compose up
 ```
-
+     
 Note that when you run it for the first time, it will download a docker image of size 300MB or so.
 
 Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`docker-compose up`) to render the webpage with all you changes. Also, make sure to commit your final changes.
