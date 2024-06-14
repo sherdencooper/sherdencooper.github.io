@@ -15,13 +15,13 @@ $max-content-width: {{ site.max_width }};
 ;
 
 .highlight {
-  color: red;
-  font-weight: bold;
+  color: red !important;
+  font-weight: bold !important;
 }
 
 .highlight-content {
-  display: block;
-  font-style: italic;
-  color: darkred;
-  margin-top: 5px;
+  display: block !important;
+  font-style: italic !important;
+  color: darkred !important;
+  margin-top: 5px !important;
 }
