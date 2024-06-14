@@ -20,8 +20,9 @@ $max-content-width: {{ site.max_width }};
 }
 
 .highlight-content {
+  color: red !important;
+  font-weight: bold !important;
   display: block !important;
   font-style: italic !important;
-  color: darkred !important;
   margin-top: 5px !important;
 }
