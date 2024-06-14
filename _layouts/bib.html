@@ -23,13 +23,13 @@
   </div>
 
   <!-- Entry bib key -->
-  <div id="{{entry.key}}" class="col-sm-8 {% if entry.highlight %}highlight{% endif %}">
+  <div id="{{entry.key}}" class="col-sm-8">
     {% if entry.type == "thesis" -%}
       {{reference}}
     {%- else %}
       <!-- Title -->
       <div class="title">{{entry.title}}</div>
-      <!-- Highlight Content -->
+     <!-- Highlight Content -->
       {% if entry.highlight %}
         <div class="highlight-content">{{ entry.highlight_content }}</div>
       {% endif %}
