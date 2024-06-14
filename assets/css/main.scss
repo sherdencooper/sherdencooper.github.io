@@ -13,3 +13,15 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+
+.highlight {
+  color: red;
+  font-weight: bold;
+}
+
+.highlight-content {
+  display: block;
+  font-style: italic;
+  color: darkred;
+  margin-top: 5px;
+}
