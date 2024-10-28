@@ -13,7 +13,8 @@ nav_order: 5
 - IEEE Transactions on Knowledge and Data Engineering 2024
 - NeurIPS 2024
 - AISTATS 2025
-
+- ICLR 2025
+- WWW 2025
 
 ## Artifact Evaluation Reviewer
 
