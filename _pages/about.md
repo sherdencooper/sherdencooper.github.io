@@ -18,5 +18,5 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a second-year computer science Ph.D. student at Northwestern University, working with <a href="http://xinyuxing.org/" target="_blank">Prof. Xinyu</a>. 
+I am a forth-year computer science Ph.D. student at Northwestern University, working with <a href="http://xinyuxing.org/" target="_blank">Prof. Xinyu</a>. I am looking for the postdoctoral position in 2025.
 My research interests lie in reinforcement learning and secure machine learning. I hold B.S. degree from Shanghai Jiao Tong University (2021). If you have any research issue, feel free to contact me! Enjoy research and life :)
