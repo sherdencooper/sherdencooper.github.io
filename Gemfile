@@ -21,3 +21,6 @@ group :other_plugins do
     gem 'httparty'
     gem 'feedjira'
 end
+
+# Add this line to handle the uri gem conflict
+gem 'uri', '~> 0.10.1', require: false
