@@ -21,4 +21,3 @@ nav_order: 5
 
 - NDSS 2025 Summer
 - NDSS 2025 Fall
-- USENIX Security 2025
