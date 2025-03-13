@@ -15,10 +15,10 @@ nav_order: 5
 - AISTATS 2025
 - ICLR 2025
 - WWW 2025
-- ICML 2025
 
 
 ## Artifact Evaluation Reviewer
 
 - NDSS 2025 Summer
 - NDSS 2025 Fall
+- USENIX Security 2025
