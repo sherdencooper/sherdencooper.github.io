@@ -16,6 +16,7 @@ nav_order: 5
 - ICLR 2025
 - WWW 2025
 - ICML 2025
+- Journal of Orthopaedic Surgery 2025
 
 
 ## Artifact Evaluation Reviewer
