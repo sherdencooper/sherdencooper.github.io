@@ -17,6 +17,7 @@ nav_order: 5
 - WWW 2025
 - ICML 2025
 - Journal of Orthopaedic Surgery 2025
+- IEEE Transactions on Information Forensics and Security 2025
 
 
 ## Artifact Evaluation Reviewer
