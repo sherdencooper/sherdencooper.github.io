@@ -13,11 +13,12 @@ nav_order: 5
 - IEEE Transactions on Knowledge and Data Engineering 2024
 - NeurIPS 2024
 - AISTATS 2025
-- ICLR 2025
+- ICLR 2025 (Notable Reviewers)
 - WWW 2025
 - ICML 2025
 - Journal of Orthopaedic Surgery 2025
 - IEEE Transactions on Information Forensics and Security 2025
+- NeurIPS 2025
 
 
 ## Artifact Evaluation Reviewer
