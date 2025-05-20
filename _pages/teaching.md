@@ -19,7 +19,7 @@ nav_order: 5
 - Journal of Orthopaedic Surgery 2025
 - IEEE Transactions on Information Forensics and Security 2025
 - NeurIPS 2025
-- https://northwestern.zoom.us/j/3300642466?pwd=FBVqilLhbXLE8rtgOvEsNb6Koe3zaH.1
+
 
 ## Artifact Evaluation Reviewer
 
