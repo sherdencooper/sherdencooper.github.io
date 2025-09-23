@@ -11,22 +11,19 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. candidate
-      institution: Northwestern University
-      year: 2021-Now
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-      #   - title: Description 3.
-      #     contents:
-      #       - Sub-description 1.
-      #       - Sub-description 2.
-    - title: B.S.
-      institution: Shanghai Jiao Tong University
-      year: 2017-2021
-      # description:
-      #   - Description 1.
-      #   - Description 2.
+    - title: Ph.D., Computer Science
+      institution: Northwestern University, Evanston, United States
+      year: Sep 2021 - Now
+      description:
+        - Advisor: Prof. Xinyu Xing
+        - GPA: 3.85/4.0
+    - title: B.S, School of Electronic Information and Electrical Engineering
+      institution: Shanghai Jiao Tong University, Shanghai, China
+      year: Sep 2017 - Jul 2021
+      description:
+        - Advisor: Prof. Liyao Xiang
+        - Zhiyuan Honor Program
+        - GPA: 3.6/4.0
 
 - title: Experience
   type: time_table
@@ -101,14 +98,18 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Deep Reinforcement Learning
-      items: 
-        - Explainable DRL
-        - Adversarial policies in DRL agents
-    - title: Enhancing Security and Privacy through Machine Learning
+    - title: AI Security and Large Language Models
       items:
-        - Malware detection or mutation via machine learning
-        - fuzzing via machine learning
+        - LLM explainability and adversarial robustness
+        - Automated program patch generation and vulnerability identification
+        - Securing blockchain systems with AI
+        - LLM red-teaming and jailbreak attacks
+    - title: Machine Learning for Cybersecurity
+      items:
+        - Fuzzing and vulnerability detection
+        - Malware analysis and mutation
+        - Explainable deep reinforcement learning
+        - Noise resistance in ML algorithms
 
 # - title: Other Interests
 #   type: list
