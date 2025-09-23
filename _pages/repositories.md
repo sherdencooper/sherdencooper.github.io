@@ -29,5 +29,5 @@ nav_order: 3
 </div>
 {% endif %} -->
 
-## LeetCode Profile
-![LeetCode Stats](https://leetcard.jacoblin.cool/sherdencooper?theme=unicorn&font=Sora&ext=activity)
+<!-- ## LeetCode Profile
+![LeetCode Stats](https://leetcard.jacoblin.cool/sherdencooper?theme=unicorn&font=Sora&ext=activity) -->
