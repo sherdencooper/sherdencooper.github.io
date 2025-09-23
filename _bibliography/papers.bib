@@ -1,15 +1,6 @@
 ---
 ---
-@INPROCEEDINGS{yang2021matrix,
-bibtex_show={true},
-abbr={TMC},
-author = {Jungang Yang and Liyao Xiang and Jiahao Yu and Xinbing Wang and Bin Guo and Zhetao Li and Baochun Li},
-booktitle = {IEEE Transactions on Mobile Computing},
-title = {Matrix Gaussian Mechanisms for Differentially-Private Learning},
-year = {2021},
-pdf = {https://ieeexplore.ieee.org/document/9475590},
-abstract={The wide deployment of machine learning algorithms has become a severe threat to user data privacy. As the learning data is of high dimensionality and high orders, preserving its privacy is intrinsically hard. Conventional differential privacy mechanisms often incur significant utility decline as they are designed for scalar values from the start. We recognize that it is because conventional approaches do not take the data structural information into account, and fail to provide sufficient privacy or utility. As the main novelty of this work, we propose Matrix Gaussian Mechanism (MGM), a new (, δ)-differential privacy mechanism for preserving learning data privacy. By imposing the unimodal distributions on the noise, we introduce two mechanisms based on MGM with an improved utility. We further show that with the utility space available, the proposed mechanisms can be instantiated with optimized utility, and has a closed-form solution scalable to large-scale problems. We experimentally show that our mechanisms, applied to privacy-preserving federated learning, are superior than the state-of-the-art differential privacy mechanisms in utility.}
-}
+
 
 @inproceedings{wangpft,
   title={The Illusion of Role Separation: Hidden Shortcuts in LLM Role Learning (and How to Fix Them)},
@@ -86,16 +77,6 @@ abstract={The wide deployment of machine learning algorithms has become a severe
   highlight_content = {Long Talk},
 }
 
-@inproceedings{statemask,
-  abbr={NIPS},
-  bibtex_show={false},
-  title={StateMask: Explaining Deep Reinforcement Learning through State Mask},
-  author={Cheng*, Zelei and Wu*, Xian and Yu*, Jiahao and Sun, Wenhai and Guo, Wenbo and Xing, Xinyu},
-  booktitle={Proceedings of the 37th Conference on Neural Information Processing Systems},
-  pdf={https://openreview.net/pdf?id=pzc6LnUxYN},
-  year={2023}
-}
-
 @inproceedings{cheng2024rice,
   title={RICE: Breaking Through the Training Bottlenecks of Reinforcement Learning with Explanation},
   abbr={ICML},
@@ -107,18 +88,6 @@ abstract={The wide deployment of machine learning algorithms has become a severe
   year={2024}
 }
 
-@inproceedings{gptfuzzer,
-  abbr={arXiv},
-  title={GPTFUZZER: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts },
-  author={Yu, Jiahao and Lin, Xingwei and Yu, Zheng and Xing, Xinyu},
-  journal={arXiv preprint arXiv:2309.10253},
-  year={2023},
-  pdf = {https://arxiv.org/pdf/2309.10253.pdf},
-  selected = {true},
-  highlight = {true},
-  highlight_content = {Geekcon 2023 Annual Themed Debate Breakthrough Awards},
-}
-
 @inproceedings{yu2023assessing,
   abbr={ICLR@SET-LLM},
   title={Assessing Prompt Injection Risks in 200+ Custom GPTs},
@@ -128,12 +97,60 @@ abstract={The wide deployment of machine learning algorithms has become a severe
   pdf = {https://openreview.net/pdf?id=XoXktpKp6x}
 }
 
-@inproceedings{jiang2020research,
-  abbr={J Phys Conf Ser},
-  title={Research on Application of Artificial Intelligence Technology in Electrical Automation Control},
-  author={Jiang, Chao and Xiong, Xiaorui and Zhu, Tanqing and Cao, Jiajia and Yu, Jiahao},
-  booktitle={Journal of Physics: Conference Series},
-  year={2020},
+
+@inproceedings{shi2024bandfuzz,
+  abbr={ICSE@SBFT},
+  title={BandFuzz: A Practical Framework for Collaborative Fuzzing with Reinforcement Learning},
+  author={Shi, Wenxuan and Li, Hongwei and Yu, Jiahao and Guo, Wenbo and Xing, Xinyu},
+  booktitle = {The 17th Intl Workshop on Search-Based and Fuzz Testing},
+  year = {2024},
+  pdf = {https://shiwx.org/paper/bandfuzz-sbft24.pdf},
+  highlight = {true},
+  highlight_content = {1st Place in SBFT Challenge}
+}
+
+@inproceedings{gptfuzzer,
+  abbr={arXiv},
+  title={GPTFuzzer: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts },
+  author={Yu, Jiahao and Lin, Xingwei and Yu, Zheng and Xing, Xinyu},
+  journal={arXiv preprint arXiv:2309.10253},
+  year={2023},
+  pdf = {https://arxiv.org/pdf/2309.10253.pdf},
+  selected = {true},
+  highlight = {true},
+  highlight_content = {Geekcon 2023 Annual Themed Debate Breakthrough Awards},
+}
+@inproceedings{statemask,
+  abbr={NIPS},
+  bibtex_show={false},
+  title={StateMask: Explaining Deep Reinforcement Learning through State Mask},
+  author={Cheng*, Zelei and Wu*, Xian and Yu*, Jiahao and Sun, Wenhai and Guo, Wenbo and Xing, Xinyu},
+  booktitle={Proceedings of the 37th Conference on Neural Information Processing Systems},
+  pdf={https://openreview.net/pdf?id=pzc6LnUxYN},
+  year={2023},
+  selected = {true}
+}
+
+@INPROCEEDINGS{airs2023,
+  abbr={USENIX},
+  title={AIRS Explanation for Deep Reinforcement Learning based Security Applications},
+  author={Jiahao Yu and  Wenbo Guo and  Qi Qin and Gang Wang and Ting Wang and Xinyu Xing},
+  booktitle = {Proceedings of the 2023 USENIX Security},
+  abstract = {Recently, we have witnessed the success of deep reinforcement learning (DRL) in many security applications, ranging from malware mutation to selfish blockchain mining. Like all other machine learning methods, the lack of explainability has been limiting its broad adoption as users have difficulty establishing trust in DRL models’ decisions. Over the past years, different methods have been proposed to explain DRL models but unfortunately, they are often not suitable for security applications, in which explanation fidelity, efficiency, and the capability of model debugging are largely lacking. In this work, we propose AIRS, a general framework to explain deep reinforcement learning-based security applications. Unlike previous works that pinpoint important features to the agent’s current action, our explanation is at the step level. It models the relationship between the final reward and the key steps that a DRL agent takes, and thus outputs the steps that are most critical towards the final reward the agent has gathered. Using four representative security-critical applications, we evaluate AIRS from the perspectives of explainability, fidelity, stability, and efficiency. We show that AIRS could outperform alternative explainable DRL methods. We also showcase AIRS’s utility, demonstrating that our explanation could facilitate the DRL model’s failure offset, help users establish trust in a model decision, and even assist the identification of inappropriate reward designs.},
+  year = {2022},
+  pdf = {https://www.usenix.org/system/files/usenixsecurity23-yu-jiahao.pdf},
+  selected = {true}
+}
+
+@INPROCEEDINGS{yang2021matrix,
+bibtex_show={true},
+abbr={TMC},
+author = {Jungang Yang and Liyao Xiang and Jiahao Yu and Xinbing Wang and Bin Guo and Zhetao Li and Baochun Li},
+booktitle = {IEEE Transactions on Mobile Computing},
+title = {Matrix Gaussian Mechanisms for Differentially-Private Learning},
+year = {2021},
+pdf = {https://ieeexplore.ieee.org/document/9475590},
+abstract={The wide deployment of machine learning algorithms has become a severe threat to user data privacy. As the learning data is of high dimensionality and high orders, preserving its privacy is intrinsically hard. Conventional differential privacy mechanisms often incur significant utility decline as they are designed for scalar values from the start. We recognize that it is because conventional approaches do not take the data structural information into account, and fail to provide sufficient privacy or utility. As the main novelty of this work, we propose Matrix Gaussian Mechanism (MGM), a new (, δ)-differential privacy mechanism for preserving learning data privacy. By imposing the unimodal distributions on the noise, we introduce two mechanisms based on MGM with an improved utility. We further show that with the utility space available, the proposed mechanisms can be instantiated with optimized utility, and has a closed-form solution scalable to large-scale problems. We experimentally show that our mechanisms, applied to privacy-preserving federated learning, are superior than the state-of-the-art differential privacy mechanisms in utility.}
 }
 
 @inproceedings{xu2021speedup,
@@ -160,6 +177,14 @@ abstract={The wide deployment of machine learning algorithms has become a severe
   pdf = {https://ieeexplore.ieee.org/document/9155483}
 }
 
+@inproceedings{jiang2020research,
+  abbr={J Phys Conf Ser},
+  title={Research on Application of Artificial Intelligence Technology in Electrical Automation Control},
+  author={Jiang, Chao and Xiong, Xiaorui and Zhu, Tanqing and Cao, Jiajia and Yu, Jiahao},
+  booktitle={Journal of Physics: Conference Series},
+  year={2020},
+}
+
 @inproceedings{li2019invisible,
   abbr={arXiv},
   title={Invisible backdoor attacks against deep neural networks},
@@ -167,28 +192,4 @@ abstract={The wide deployment of machine learning algorithms has become a severe
   journal={arXiv preprint arXiv:1909.02742v1},
   year={2019},
   pdf = {https://arxiv.org/pdf/1909.02742v1.pdf}
-}
-
-
-@INPROCEEDINGS{airs2023,
-  abbr={USENIX},
-  title={AIRS Explanation for Deep Reinforcement Learning based Security Applications},
-  author={Jiahao Yu and  Wenbo Guo and  Qi Qin and Gang Wang and Ting Wang and Xinyu Xing},
-  booktitle = {Proceedings of the 2023 USENIX Security},
-  abstract = {Recently, we have witnessed the success of deep reinforcement learning (DRL) in many security applications, ranging from malware mutation to selfish blockchain mining. Like all other machine learning methods, the lack of explainability has been limiting its broad adoption as users have difficulty establishing trust in DRL models’ decisions. Over the past years, different methods have been proposed to explain DRL models but unfortunately, they are often not suitable for security applications, in which explanation fidelity, efficiency, and the capability of model debugging are largely lacking. In this work, we propose AIRS, a general framework to explain deep reinforcement learning-based security applications. Unlike previous works that pinpoint important features to the agent’s current action, our explanation is at the step level. It models the relationship between the final reward and the key steps that a DRL agent takes, and thus outputs the steps that are most critical towards the final reward the agent has gathered. Using four representative security-critical applications, we evaluate AIRS from the perspectives of explainability, fidelity, stability, and efficiency. We show that AIRS could outperform alternative explainable DRL methods. We also showcase AIRS’s utility, demonstrating that our explanation could facilitate the DRL model’s failure offset, help users establish trust in a model decision, and even assist the identification of inappropriate reward designs.},
-  year = {2022},
-  pdf = {https://www.usenix.org/system/files/usenixsecurity23-yu-jiahao.pdf},
-  selected = {true}
-}
-
-
-@inproceedings{shi2024bandfuzz,
-  abbr={ICSE@SBFT},
-  title={BandFuzz: A Practical Framework for Collaborative Fuzzing with Reinforcement Learning},
-  author={Shi, Wenxuan and Li, Hongwei and Yu, Jiahao and Guo, Wenbo and Xing, Xinyu},
-  booktitle = {The 17th Intl Workshop on Search-Based and Fuzz Testing},
-  year = {2024},
-  pdf = {https://shiwx.org/paper/bandfuzz-sbft24.pdf},
-  highlight = {true},
-  highlight_content = {1st Place in SBFT Challenge}
 }
