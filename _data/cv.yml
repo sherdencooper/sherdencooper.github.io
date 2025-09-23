@@ -32,11 +32,29 @@
   type: time_table
   contents:
     - title: Research Intern
-      institution: MSRA
-      year: 2020 - 2021
+      institution: ByteDance, San Francisco, USA
+      year: Sep 2024 - Dec 2024
       description:
-        - Advised by Dr. Bin Zhu
-        - Adversarial attacks againts machine-learning-based PowerShell detector 
+        - LLM Red-teaming Benchmarking
+        - Advisor: Dr. Zhenqing Luo
+    - title: Research Intern
+      institution: University of Chicago, Chicago, USA
+      year: Jun 2024 - Sep 2024
+      description:
+        - LLM for Vulnerability Detection
+        - Advisor: Dr. Kexin Pei
+    - title: Research Intern
+      institution: Ant Group, Hangzhou, China
+      year: Jun 2023 - Aug 2023
+      description:
+        - Automatically Red-teaming Large Language Models
+        - Advisor: Xingwei Lin
+    - title: Research Intern
+      institution: MSRA, Beijing, China
+      year: Aug 2020 - Mar 2021
+      description:
+        - Adversarial Attack against PowerShell Malware Detector
+        - Advisor: Dr. Bin Zhu
     #     - title: Description 3.
     #       contents:
     #         - Sub-description 1.
