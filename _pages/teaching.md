@@ -7,22 +7,26 @@ nav: true
 nav_order: 5
 ---
 
+## Program Committee Member
+
+- USENIX Security Symposium ('26 Cycle 1)
+
+
+## Artifact Evaluation Committee Member
+
+- USENIX Security Symposium 2025 (Cycle 1, Cycle 2)
+- Network and Distributed System Security Symposium (NDSS) 2025 (Summer, Fall)
+
+
 ## Reviewer
 
-- ICLR 2024 Workshop on Secure and Trustworthy Large Language Models 2024
-- IEEE Transactions on Knowledge and Data Engineering 2024
-- NeurIPS 2024
-- AISTATS 2025
-- ICLR 2025 (Notable Reviewers)
-- WWW 2025
-- ICML 2025
+- International Conference on Learning Representations (ICLR) 2025 **(Notable Reviewer)**
+- Conference on Neural Information Processing Systems (NeurIPS) 2024, 2025
+- International Conference on Machine Learning (ICML) 2025
+- International Conference on Artificial Intelligence and Statistics (AISTATS) 2025, 2026
+- AAAI Conference on Artificial Intelligence (AAAI) 2026
+- The Web Conference (WWW) 2025
+- ICLR Workshop on Secure and Trustworthy Large Language Models 2024
+- IEEE Transactions on Information Forensics and Security (TIFS) 2025
+- IEEE Transactions on Knowledge and Data Engineering (TKDE) 2024
 - Journal of Orthopaedic Surgery 2025
-- IEEE Transactions on Information Forensics and Security 2025
-- NeurIPS 2025
-
-
-## Artifact Evaluation Reviewer
-
-- NDSS 2025 Summer
-- NDSS 2025 Fall
-- USENIX Security 2025
