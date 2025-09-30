@@ -10,13 +10,12 @@ nav_order: 5
 ## Program Committee Member
 
 - USENIX Security Symposium ('26 Cycle 1)
-
+- Conference on Computer and Communications Security (CCS) 2026
 
 ## Artifact Evaluation Committee Member
 
 - USENIX Security Symposium 2025 (Cycle 1, Cycle 2)
 - Network and Distributed System Security Symposium (NDSS) 2025 (Summer, Fall)
-
 
 ## Reviewer
 
