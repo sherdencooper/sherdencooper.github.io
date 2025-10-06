@@ -31,7 +31,7 @@
       <div class="title">{{entry.title}}</div>
      <!-- Highlight Content -->
       {% if entry.highlight %}
-        <div class="highlight-content">{{ entry.highlight_content }}</div>
+        <div class="highlight-content">{{ entry.highlight_content | raw }}</div>
       {% endif %}
       <!-- Author -->
       <div class="author">
