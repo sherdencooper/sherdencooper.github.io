@@ -50,6 +50,10 @@ rss_icon: true
 navbar_fixed: true
 footer_fixed: true
 
+# CV nav link points straight to the PDF (no dedicated CV page)
+cv_pdf: assets/pdf/CV.pdf
+cv_nav_order: 4
+
 # Dimensions
 max_width: 800px
 

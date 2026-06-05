@@ -64,8 +64,16 @@
 
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
+              {%- assign cv_emitted = false -%}
               {%- for p in sorted_pages -%}
               {%- if p.nav and p.autogen == nil -%}
+              {%- if site.cv_pdf and cv_emitted == false and p.nav_order >= site.cv_nav_order -%}
+              <!-- CV (opens the PDF directly) -->
+              <li class="nav-item">
+                <a class="nav-link" href="{{ site.cv_pdf | relative_url }}" target="_blank" rel="noopener noreferrer">cv</a>
+              </li>
+              {%- assign cv_emitted = true -%}
+              {%- endif -%}
               {%- if p.dropdown %}
               <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ p.title }}
